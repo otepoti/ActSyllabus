@@ -1,7 +1,7 @@
 ---
 title: "Introduction to copulas"
 author: "Paul"
-date: "10 January 2016"
+date: "9 March 2016"
 output: github_document
 ---
 ```{r global_options, include=FALSE}
@@ -12,14 +12,14 @@ Here is a quote from Paul Sweeting's ERM book:
 
 *"The marginal cumulative distributions are the inputs to the copula functions. These are essentially uniform distributions for each of the marginal variables."*
 
-What does this second sentence mean? Let's start with a univariate normal distribution. Suppose we generate a bunch of normal random variable and plot the histogram.
+What does this second sentence mean? Let's start with a univariate normal distribution. Suppose we generate a bunch of normal random variables and plot the histogram.
 
 ```{r rnorm_plot}
 x1 <- rnorm(10000)
 hist(x1, freq = FALSE, breaks = 30)
 ```
 
-If we feed these back into cumulative distrribution function, we generate a uniform distribution.
+If we feed these back into the cumulative distribution function, we generate a uniform distribution.
 
 ```{r pnorm_plot}
 y1 <- pnorm(x1)
