@@ -124,3 +124,7 @@ cor(x1, y1, method ="kendall")
 ```
 
     ## [1] 0.490854
+
+And a gratuitous formula:
+
+![hello](http://mathurl.com/hlsk2mv.png)

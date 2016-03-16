@@ -102,3 +102,7 @@ The transformation leaves Kendall's rank correlation unchanged (although the Pea
 ```{r}
 cor(x1, y1, method ="kendall")
 ```
+
+And a gratuitous formula:
+
+![hello](http://mathurl.com/hlsk2mv.png)
